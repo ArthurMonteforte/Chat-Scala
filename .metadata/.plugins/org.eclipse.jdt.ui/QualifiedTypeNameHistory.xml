@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="scala.swing.TextArea"/>
+<fullyQualifiedTypeName name="java.awt.TextField"/>
+<fullyQualifiedTypeName name="scala.swing.TextField"/>
+<fullyQualifiedTypeName name="scala.swing.ScrollPane"/>
+</qualifiedTypeNameHistroy>

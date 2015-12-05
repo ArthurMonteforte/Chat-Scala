@@ -1,0 +1,50 @@
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.io.PrintStream
+import java.net.Socket
+import scala.swing.BorderPanel
+import scala.swing.MainFrame
+import scala.swing.TextArea
+import scala.swing.TextField
+
+
+ /* @author Artur
+ */
+object UserInterface {
+  
+  def main(args: Array[String]): Unit = {
+    
+    val address = "localhost"
+    val port = 10001  
+    val sock = new Socket(address, port)  
+    val is = new BufferedReader(new InputStreamReader(sock.getInputStream()))
+    val os = new PrintStream(sock.getOutputStream())
+    val textArea = new TextArea
+    val textField = new TextField
+    
+    val frame = new MainFrame{
+      title = "Chat Scala"
+      contents = new BorderPanel {
+        layout += new ScrollPane(textArea) -> BorderPanel.Position.North
+        layout += textField -> BorderPanel.Position.South
+      }
+    }
+    
+    var flag = true
+    actors.Actor.actor {
+      while(flag){
+        if(is.ready){
+          val output = is.readLine
+          textArea.append(output)
+        }
+        Thread.sleep(200)
+      }
+    }
+    while(flag){
+      val input = readLine
+      if(input == "quit") flag = false
+      else os.println(input)
+    }
+    sock.close()
+  }
+}

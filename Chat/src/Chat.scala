@@ -39,8 +39,5 @@ object Chat {
       }
     }
   }
-
-
-
 }
   

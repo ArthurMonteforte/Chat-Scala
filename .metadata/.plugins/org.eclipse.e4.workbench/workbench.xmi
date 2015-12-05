@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vMPFkZj-EeWFJccrmHzsNw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_vMPFkpj-EeWFJccrmHzsNw" bindingContexts="_vMPFmJj-EeWFJccrmHzsNw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Chat.scala&quot; tooltip=&quot;Chat/src/Chat.scala&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Chat/src/Chat.scala&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;User.scala&quot; tooltip=&quot;Chat/src/User.scala&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Chat/src/User.scala&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;UserInterface.scala&quot; tooltip=&quot;Chat/src/UserInterface.scala&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Chat/src/UserInterface.scala&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Chat.scala&quot; tooltip=&quot;Chat/src/Chat.scala&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Chat/src/Chat.scala&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_vMPFkpj-EeWFJccrmHzsNw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_w89cUpj-EeWFJccrmHzsNw" label="%trimmedwindow.label.eclipseSDK" x="125" y="125" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_vMPFkpj-EeWFJccrmHzsNw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_w89cUpj-EeWFJccrmHzsNw" label="%trimmedwindow.label.eclipseSDK" x="341" y="73" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
+    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
+    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1449065578904"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_w89cUpj-EeWFJccrmHzsNw" selectedElement="_w8-DYJj-EeWFJccrmHzsNw" horizontal="true">
@@ -43,10 +45,9 @@
           <children xsi:type="basic:PartSashContainer" xmi:id="_x0GfsZj-EeWFJccrmHzsNw" selectedElement="_x0GftJj-EeWFJccrmHzsNw" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_x0Gfspj-EeWFJccrmHzsNw" elementId="explorer" containerData="2500" selectedElement="_x0Gfs5j-EeWFJccrmHzsNw">
               <tags>newtablook</tags>
-              <tags>noFocus</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_x0Gfs5j-EeWFJccrmHzsNw" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_xz9VwJj-EeWFJccrmHzsNw"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_x0GftJj-EeWFJccrmHzsNw" containerData="7500" selectedElement="_x0GftZj-EeWFJccrmHzsNw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_x0GftJj-EeWFJccrmHzsNw" containerData="7500" selectedElement="_x0GfuZj-EeWFJccrmHzsNw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_x0GftZj-EeWFJccrmHzsNw" containerData="7500" selectedElement="_x0Gftpj-EeWFJccrmHzsNw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_x0Gftpj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_xzjtIJj-EeWFJccrmHzsNw"/>
                 <children xsi:type="basic:PartStack" xmi:id="_x0Gft5j-EeWFJccrmHzsNw" elementId="right" containerData="2500" selectedElement="_x0GfuJj-EeWFJccrmHzsNw">
@@ -54,8 +55,10 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_x0GfuJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.ContentOutline" ref="_x0C1UJj-EeWFJccrmHzsNw"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_x0GfuZj-EeWFJccrmHzsNw" elementId="problems" containerData="2500" selectedElement="_x0Gfupj-EeWFJccrmHzsNw">
+              <children xsi:type="basic:PartStack" xmi:id="_x0GfuZj-EeWFJccrmHzsNw" elementId="problems" containerData="2500" selectedElement="_x0GfvJj-EeWFJccrmHzsNw">
                 <tags>newtablook</tags>
+                <tags>org.eclipse.e4.secondaryDataStack</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_x0Gfupj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.ProblemView" ref="_x0AZEJj-EeWFJccrmHzsNw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_x0Gfu5j-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.TaskList" ref="_x0BAIJj-EeWFJccrmHzsNw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_x0GfvJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.console.ConsoleView" ref="_x0COQJj-EeWFJccrmHzsNw"/>
@@ -87,14 +90,23 @@
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_C_VcoJj_EeWFJccrmHzsNw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Chat.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Chat.scala&quot; partName=&quot;Chat.scala&quot; title=&quot;Chat.scala&quot; tooltip=&quot;Chat/src/Chat.scala&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Chat/src/Chat.scala&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;276&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Chat.scala&quot; partName=&quot;Chat.scala&quot; title=&quot;Chat.scala&quot; tooltip=&quot;Chat/src/Chat.scala&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Chat/src/Chat.scala&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;973&quot; selectionTopPixel=&quot;10&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_WJLN0JrMEeWPqcHztpcRNg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="User.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;User.scala&quot; partName=&quot;User.scala&quot; title=&quot;User.scala&quot; tooltip=&quot;Chat/src/User.scala&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Chat/src/User.scala&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;763&quot; selectionOffset=&quot;2&quot; selectionTopPixel=&quot;91&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_oCwXIJrPEeWPqcHztpcRNg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="UserInterface.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;UserInterface.scala&quot; partName=&quot;UserInterface.scala&quot; title=&quot;UserInterface.scala&quot; tooltip=&quot;Chat/src/UserInterface.scala&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Chat/src/UserInterface.scala&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;951&quot; selectionTopPixel=&quot;238&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -116,15 +128,23 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_yzqfQJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.ProblemView"/>
+      <toolbar xmi:id="_yzqfQJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.ProblemView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_x0BAIJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.TaskList" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Tasks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/tasks_tsk.png" closeable="true">
       <tags>View</tags>
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_x0COQJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_-WkpYJrNEeWPqcHztpcRNg" elementId="org.eclipse.ui.console.ConsoleView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_-WkpYZrNEeWPqcHztpcRNg" elementId="org.eclipse.ui.console.ConsoleView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_x0C1UJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
@@ -143,7 +163,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_w-4u8Jj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_w_BR0Jj-EeWFJccrmHzsNw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_vPrbM5j-EeWFJccrmHzsNw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_krjWgJrqEeWTVawejSaREQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_vPrbM5j-EeWFJccrmHzsNw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_w-4u8Zj-EeWFJccrmHzsNw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -161,7 +181,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_w-59EJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_w_EVIJj-EeWFJccrmHzsNw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_vPmis5j-EeWFJccrmHzsNw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_krrSUJrqEeWTVawejSaREQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_vPmis5j-EeWFJccrmHzsNw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_w-6kIJj-EeWFJccrmHzsNw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
