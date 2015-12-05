@@ -13,7 +13,6 @@ import collection.mutable
 object Chat {
   case class User(sock:Socket, is: BufferedReader, ps: PrintStream, name: String)
   
-  
   def main(args: Array[String]): Unit = {
     val users = new mutable.ArrayBuffer[User]() with mutable.SynchronizedBuffer[User] {}
     val ss = new ServerSocket(10001)
@@ -25,13 +24,22 @@ object Chat {
         actors.Actor.actor {
           os.println("What is your name?")
           users += User(sock, is, os, is.readLine())
+          os.println("Choose a language:")
+          os.println("P - Portugues")
+          os.println("E - English")
+          val language = is.readLine() //nao to conseguindo passar esse valor para o translate logo abaixo
+          if (language == "P") os.println("Digite uma mensagem:")
+          else if (language == "E") os.println("Write a message:")
         }
       }
-    }    
+    }
+    val language = "P" //só para testar, esse valor deveria ser atribuido no language acima
     while(true){
       for(user <- users){
         if(user.is.ready){
           val input = user.is.readLine
+          //chamar a funçao para traduzir:
+          Translate.translate(language, input)
           for(user2 <- users){
             user2.ps.println(user.name + " : " + input)
           }

@@ -3,6 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Artur/Desktop/Arthur/UFABC/Paradigmas de Programação/scala-swing_2.11-2.0.0-M2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Danielle/akka_2.11-2.3.14/akka-2.3.14/lib/akka/akka-actor_2.11-2.3.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Danielle/akka_2.11-2.3.14/akka-2.3.14/lib/akka/config-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Danielle/Desktop/ProjetoPP/scala-swing_2.11-2.0.0-M2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
