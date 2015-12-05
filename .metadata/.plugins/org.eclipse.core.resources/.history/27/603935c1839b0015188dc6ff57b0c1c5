@@ -11,7 +11,7 @@ object Translate {
     case _ =>
   }
   
-  def toPort(input: String): String = {
+  def toPort(input: String) = {
     val words = input.split(" ")
     val dic = Map("hi"->"oi","how"->"como","are"->"esta","you"->"vc")
     var traducao = ""
@@ -22,6 +22,7 @@ object Translate {
       }
     }
     traducao
+    println(traducao)
   }
   
   def toEng(input: String) = {

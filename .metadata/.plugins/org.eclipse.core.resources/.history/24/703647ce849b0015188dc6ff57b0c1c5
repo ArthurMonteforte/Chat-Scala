@@ -41,7 +41,7 @@ object Chat {
           val input = user.is.readLine
           //chamar a funçao para traduzir:
           for(user2 <- users){
-            user2.ps.println(user.name + " : " +  Translate.translate(user2.language, input))
+            user2.ps.println(user.name + " : " +  user2.language)//Translate.translate(user2.language, input))
           }
         }
       }
