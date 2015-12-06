@@ -11,9 +11,10 @@ object Translate {
     case _ =>
   }
   
+
   def toPort(input: String): String = {
     val words = input.split(" ")
-    val dic = Map("hi"->"oi","how"->"como","are"->"esta","you"->"vc")
+    val dic = Map("hi"->"oi","how"->"como","are"->"esta","you"->"vc","i'm"->"eu estou","fine"->"bem","and"->"e","too"->"tambem")
     var traducao = ""
     for(i <- 0 to words.length-1){
       dic contains words(i) match{
@@ -24,7 +25,16 @@ object Translate {
     traducao
   }
   
-  def toEng(input: String) = {
-    
+  def toEng(input: String): String = {
+     val words = input.split(" ")
+    val dic = Map("oi"->"hi","como"->"how","esta"->"are","vc"->"you","eu estou"->"i'm","bem"->"fine","e"->"and","tambem"->"too")
+    var traducao = ""
+    for(i <- 0 to words.length-1){
+      dic contains words(i) match{
+        case true => traducao = traducao.concat(dic(words(i)) + " ")
+        case false => traducao = traducao.concat("["+words(i)+"]")
+      }
+    }
+    traducao
   }
 }
