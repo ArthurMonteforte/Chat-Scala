@@ -89,12 +89,7 @@ object Server {
         if(user.in.ready){
           val input = user.in.readLine
           for(user2 <- users){
-            if(user2.language != user.language) {
-              user2.ps.println(user.name + " : " +  Translate.translate(user2.language, input))
-            }
-            else {
-              user2.ps.println(user.name + " : " +  input)
-            }
+            user2.ps.println(user.name + " : " +  Translate.translate(user2.language, input))
           }
         }
       }
