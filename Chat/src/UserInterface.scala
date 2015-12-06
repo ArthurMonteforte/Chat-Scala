@@ -29,6 +29,7 @@ object UserInterface {
     val is = new BufferedReader(new InputStreamReader(sock.getInputStream()))
     val os = new PrintStream(sock.getOutputStream())
     val textArea = new TextArea
+    val textArea2 = new TextArea
     val buttonSave = new Button("Salvar") {
       listenTo(this)
       reactions += {
@@ -38,7 +39,7 @@ object UserInterface {
     val buttonUsers = new Button("Usuarios") {
       listenTo(this)
       reactions += {
-        case ButtonClicked(b) => SaveUser.show
+        case ButtonClicked(a) => textArea2.append(SaveUser.show())
       }
     }
     val textField = new TextField {
@@ -56,6 +57,7 @@ object UserInterface {
       title = "Chat Scala"
       contents = new BorderPanel {
         layout += new FlowPanel(textArea) -> BorderPanel.Position.North
+        layout += new ScrollPane(textArea2) -> BorderPanel.Position.Center
         layout += textField -> BorderPanel.Position.South
         layout += buttonSave -> BorderPanel.Position.East
         layout += buttonUsers -> BorderPanel.Position.West

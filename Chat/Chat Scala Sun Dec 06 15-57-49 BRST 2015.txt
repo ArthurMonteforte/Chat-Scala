@@ -1,0 +1,6 @@
+What is your name? 
+Choose a language: 
+P - Portugues 
+E - English 
+Digite uma mensagem: 
+Dani : [oi] 

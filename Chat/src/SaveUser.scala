@@ -28,7 +28,8 @@ import scala.collection.mutable.Map
     
     def salvaNovo(u: newUser) = {
       map += (u.name -> u.date)
-      //show
+      
+      show
     }
     
     def compara(u: newUser) = {
@@ -38,9 +39,13 @@ import scala.collection.mutable.Map
     
     def show(): String = {     
       val m = map.mkString("\n")
-      //println(m)
+      println("****Usuários online****")
+      println(m)
+      //val teste = "oi teste"
+      //teste
       m
     }
+    
 }
 
 // date1.compareTo(date2)
