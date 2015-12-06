@@ -1018,3 +1018,33 @@ scala.reflect.internal.FatalError: ThisType(value <local $anon>) for sym which i
 2015-12-06 21:38:08,018  WARN [Worker-95] - ScalaProject - Project Chat runs on platform default installation.
 2015-12-06 21:38:15,226  WARN [Worker-95] - ScalaProject - Project Chat has platform default sourceLevel.
 2015-12-06 21:38:15,226  WARN [Worker-95] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:47:53,979  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:47:53,997  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:47:54,006  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:47:54,006  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:48:25,146  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-12-06 21:48:40,346  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-12-06 21:48:40,580  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-12-06 21:49:48,973  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:49:48,974  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:49:49,038  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:49:49,038  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:49:49,284  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:49:49,284  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:49:59,159  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:49:59,160  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:50:00,586 ERROR [Worker-0] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-12-06 21:50:00,587 ERROR [Worker-0] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-12-06 21:50:00,587 ERROR [Worker-0] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-12-06 21:54:04,554  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:54:04,559  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:54:04,568  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:54:04,568  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:59:00,497  WARN [Worker-8] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:59:00,498  WARN [Worker-8] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:59:00,547  WARN [Worker-8] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:59:00,547  WARN [Worker-8] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:59:00,693  WARN [Worker-8] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:59:00,693  WARN [Worker-8] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 21:59:08,448  WARN [Worker-8] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 21:59:08,449  WARN [Worker-8] - ScalaProject - Project Chat runs on platform default installation.
