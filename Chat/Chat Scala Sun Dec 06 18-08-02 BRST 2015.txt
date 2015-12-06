@@ -1,0 +1,13 @@
+What is your name? 
+Choose a language: 
+P - Portugues 
+E - English 
+Write a message: 
+Maria : [hi] 
+Dani : hi  
+Maria : [how][are][you][?] 
+Dani : [tudo]fine  
+Dani : [eu][estou]fine  
+Dani : fine  
+Dani : and you [?] 
+Maria : [fine][too] 

@@ -1,12 +1,24 @@
+/*
+ * Universidade Federal do ABC
+ * 
+ * Discentes:
+ * Arthur Monteforte
+ * Danielle Lazzer Lucarini
+ * Laís Marinho de Souza
+ * 
+ * Disciplina: Paradigmas de Programação
+ * 
+ * 3º Quadrimestre 2015
+ * 
+ */
+
 import java.io.File
 import java.io.FileWriter
 import java.io.BufferedWriter
 import java.util.Calendar
 import java.io.PrintWriter
 
-/**
- * @author Artur
- */
+
 object WriteToFile {
   def wirteToFile(text: String) {
     val file = new File("Chat Scala "+ getCurrentDateAndTime() + ".txt")

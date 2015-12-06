@@ -1,3 +1,17 @@
+/*
+ * Universidade Federal do ABC
+ * 
+ * Discentes:
+ * Arthur Monteforte
+ * Danielle Lazzer Lucarini
+ * Laís Marinho de Souza
+ * 
+ * Disciplina: Paradigmas de Programação
+ * 
+ * 3º Quadrimestre 2015
+ * 
+ */
+
 import java.io.BufferedInputStream
 import java.io.PrintStream
 import java.net.Socket
@@ -7,9 +21,7 @@ import java.io.BufferedOutputStream
 import java.net.ServerSocket
 import collection.mutable
 
-/**
- * @author Artur
- */
+
 object Chat {
   case class User(sock:Socket, is: BufferedReader, ps: PrintStream, name: String, language: String)
   

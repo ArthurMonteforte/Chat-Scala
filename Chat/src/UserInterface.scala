@@ -1,3 +1,17 @@
+/*
+ * Universidade Federal do ABC
+ * 
+ * Discentes:
+ * Arthur Monteforte
+ * Danielle Lazzer Lucarini
+ * Laís Marinho de Souza
+ * 
+ * Disciplina: Paradigmas de Programação
+ * 
+ * 3º Quadrimestre 2015
+ * 
+ */
+
 import java.awt.Dimension
 import java.io.BufferedReader
 import java.io.InputStreamReader
@@ -16,8 +30,6 @@ import javax.swing.text.DefaultCaret
 import scala.swing.FlowPanel
 
 
- /* @author Artur
- */
 object UserInterface {
   
   def main(args: Array[String]): Unit = {
@@ -36,12 +48,7 @@ object UserInterface {
         case ButtonClicked(b) => WriteToFile.wirteToFile(dialogue)
       }
     }
-    val buttonUsers = new Button("Usuarios") {
-      listenTo(this)
-      reactions += {
-        case ButtonClicked(a) => textArea2.append(SaveUser.show())
-      }
-    }
+    
     val textField = new TextField {
       listenTo(this)
       reactions += {
@@ -57,10 +64,8 @@ object UserInterface {
       title = "Chat Scala"
       contents = new BorderPanel {
         layout += new FlowPanel(textArea) -> BorderPanel.Position.North
-        layout += new ScrollPane(textArea2) -> BorderPanel.Position.Center
         layout += textField -> BorderPanel.Position.South
         layout += buttonSave -> BorderPanel.Position.East
-        layout += buttonUsers -> BorderPanel.Position.West
       }
       size = new Dimension(400, 600)
       centerOnScreen

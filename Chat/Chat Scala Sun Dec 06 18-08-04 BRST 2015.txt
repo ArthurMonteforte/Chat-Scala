@@ -1,0 +1,13 @@
+What is your name? 
+Choose a language: 
+P - Portugues 
+E - English 
+Digite uma mensagem: 
+Maria : oi  
+Dani : [oi] 
+Maria : como esta vc [?] 
+Dani : [tudo][bem] 
+Dani : [eu][estou][bem] 
+Dani : [bem] 
+Dani : [e][vc][?] 
+Maria : bem tambem  
