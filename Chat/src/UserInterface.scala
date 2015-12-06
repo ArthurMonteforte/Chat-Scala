@@ -35,6 +35,12 @@ object UserInterface {
         case ButtonClicked(b) => WriteToFile.wirteToFile(dialogue)
       }
     }
+    val buttonUsers = new Button("Usuarios") {
+      listenTo(this)
+      reactions += {
+        case ButtonClicked(b) => SaveUser.show
+      }
+    }
     val textField = new TextField {
       listenTo(this)
       reactions += {
@@ -52,6 +58,7 @@ object UserInterface {
         layout += new FlowPanel(textArea) -> BorderPanel.Position.North
         layout += textField -> BorderPanel.Position.South
         layout += buttonSave -> BorderPanel.Position.East
+        layout += buttonUsers -> BorderPanel.Position.West
       }
       size = new Dimension(400, 600)
       centerOnScreen

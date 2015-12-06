@@ -24,6 +24,7 @@ object Chat {
         actors.Actor.actor {
           os.println("What is your name?")
           val name = is.readLine()
+          SaveUser.recebeInfo(name)
           os.println("Choose a language:")
           os.println("P - Portugues")
           os.println("E - English")
