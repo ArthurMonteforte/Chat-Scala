@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="java.awt.TextField"/>
 <fullyQualifiedTypeName name="scala.swing.TextField"/>
 <fullyQualifiedTypeName name="scala.swing.ScrollPane"/>
+<fullyQualifiedTypeName name="scala.swing.Button"/>
+<fullyQualifiedTypeName name="javax.swing.Action"/>
 </qualifiedTypeNameHistroy>

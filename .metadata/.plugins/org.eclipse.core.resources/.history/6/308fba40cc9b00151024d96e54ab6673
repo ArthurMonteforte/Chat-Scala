@@ -1,0 +1,20 @@
+import java.io.File
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.util.Calendar
+import java.io.PrintWriter
+
+/**
+ * @author Artur
+ */
+object WriteToFile {
+  def writeToFile(text: String) ={
+    Some(new PrintWriter("Chat-Scala " + getCurrentDateAndTime() + ".txt")).foreach{p => p.write(text); p.close}
+  }
+  
+  def getCurrentDateAndTime(): String = {
+    val out = Calendar.getInstance.getTime
+    out.toString()
+  }
+   writeToFile("testando, por favor grave isso")
+}

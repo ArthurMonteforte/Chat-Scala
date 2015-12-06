@@ -331,3 +331,377 @@ scala.reflect.internal.FatalError: ThisType(value textField) for sym which is no
 2015-12-04 23:07:38,618 ERROR [Worker-7] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2015-12-04 23:07:38,620 ERROR [Worker-7] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
 2015-12-04 23:07:38,620 ERROR [Worker-7] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-12-05 16:51:33,452  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:51:33,470  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:51:33,481  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:51:33,481  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:51:56,097  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:51:56,098  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:51:56,132  WARN [Worker-0] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:51:56,133  WARN [Worker-0] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:51:56,364  WARN [Worker-0] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:51:56,364  WARN [Worker-0] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:51:57,950  WARN [Worker-0] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:51:57,950  WARN [Worker-0] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:52:55,208  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:52:55,208  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:52:55,375  WARN [Worker-2] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:52:55,375  WARN [Worker-2] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:52:55,408  WARN [Worker-2] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:52:55,408  WARN [Worker-2] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:52:56,091  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:52:56,091  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:52:56,795  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-12-05 16:52:56,997  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-12-05 16:53:03,943  WARN [Worker-2] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 16:53:03,943  WARN [Worker-2] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 16:55:21,259  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 305
+2015-12-05 17:00:14,403  WARN [Worker-9] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:00:14,404  WARN [Worker-9] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:00:14,435  WARN [Worker-9] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:00:14,436  WARN [Worker-9] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:00:17,555  WARN [Worker-9] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:00:17,556  WARN [Worker-9] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:01:45,407 ERROR [Worker-9] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-12-05 17:01:45,407 ERROR [Worker-9] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-12-05 17:01:45,407 ERROR [Worker-9] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-12-05 17:09:49,187  WARN [Worker-14] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:09:49,188  WARN [Worker-14] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:09:49,217  WARN [Worker-14] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:09:49,218  WARN [Worker-14] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:09:54,221  WARN [Worker-14] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:09:54,221  WARN [Worker-14] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:10:07,989  WARN [Worker-9] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:10:07,990  WARN [Worker-9] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:10:08,017  WARN [Worker-9] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:10:08,017  WARN [Worker-9] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:10:09,361  WARN [Worker-9] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:10:09,361  WARN [Worker-9] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:16:04,824  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:16:04,825  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:16:04,850  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:16:04,850  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:16:06,805  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:16:06,806  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:17:20,537  WARN [Worker-26] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:17:20,537  WARN [Worker-26] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:17:20,563  WARN [Worker-26] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:17:20,563  WARN [Worker-26] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-05 17:17:22,667  WARN [Worker-26] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-05 17:17:22,668  WARN [Worker-26] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:25:53,080  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:25:53,107  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:25:53,127  WARN [main] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:25:53,128  WARN [main] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:19,433  WARN [Worker-7] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:19,434  WARN [Worker-7] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:19,721  WARN [Worker-7] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:19,721  WARN [Worker-7] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:20,090  WARN [Java indexing] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:20,098  WARN [Java indexing] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:20,674  WARN [Worker-7] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:20,674  WARN [Worker-7] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:26,172  WARN [Worker-7] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:26,173  WARN [Worker-7] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:27,567  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:27,568  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:27,610  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:27,610  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:33:30,859  WARN [Worker-1] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:33:30,860  WARN [Worker-1] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:40:18,376  WARN [Worker-14] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:40:18,376  WARN [Worker-14] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:40:18,409  WARN [Worker-14] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:40:18,409  WARN [Worker-14] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:40:22,820  WARN [Worker-14] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:40:22,821  WARN [Worker-14] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:47:55,263  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:47:55,263  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:47:55,293  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:47:55,293  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:48:00,271  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:48:00,271  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:48:46,777  WARN [Worker-27] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:48:46,777  WARN [Worker-27] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:48:46,807  WARN [Worker-27] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:48:46,807  WARN [Worker-27] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:48:50,941  WARN [Worker-27] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:48:50,941  WARN [Worker-27] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:54:14,296 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:961)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:810)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:706)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:840)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:326)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:504)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:429)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:518)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:329)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2619)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2461)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2473)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3025)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3024)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3011)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2917)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2924)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2888)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2773)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2712)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2693)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:240)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2973)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:2972)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3170)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3176)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:742)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1194)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:656)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:562)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2015-12-06 01:55:04,837  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:55:04,837  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:55:04,867  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:55:04,867  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:55:09,084  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:55:09,084  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:55:09,484 ERROR [Worker-24] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-12-06 01:55:09,484 ERROR [Worker-24] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-12-06 01:55:09,484 ERROR [Worker-24] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-12-06 01:56:34,486  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:56:34,486  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:56:34,516  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:56:34,516  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:56:51,309  WARN [Worker-24] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:56:51,309  WARN [Worker-24] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:56:51,339  WARN [Worker-24] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:56:51,339  WARN [Worker-24] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:57:17,431  WARN [Worker-28] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:57:17,431  WARN [Worker-28] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:57:17,481  WARN [Worker-28] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:57:17,481  WARN [Worker-28] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:57:19,059  WARN [Worker-28] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:57:19,059  WARN [Worker-28] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:58:29,372  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:58:29,372  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:58:29,422  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:58:29,422  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:58:33,582  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:58:33,582  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:59:10,009  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:59:10,009  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:59:10,039  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:59:10,039  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 01:59:15,021  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 01:59:15,021  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:00:18,751  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:00:18,751  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:00:18,771  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:00:18,771  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:00:22,735  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:00:22,735  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:01:32,385  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:01:32,385  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:01:32,435  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:01:32,435  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:01:36,363  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:01:36,363  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:01:50,066  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:01:50,066  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:01:50,106  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:01:50,106  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:01:51,360  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:01:51,360  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:02:41,200  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:02:41,200  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:02:41,250  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:02:41,250  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:02:45,177  WARN [Worker-22] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:02:45,177  WARN [Worker-22] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:08:45,347 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value textField) for sym which is not a class
+	at scala.reflect.internal.Reporting$class.abort(Reporting.scala:59)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1167)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1187)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1191)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$findMirrorSymbol(Global.scala:873)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16$$anonfun$apply$18.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16$$anonfun$apply$18.apply(Global.scala:945)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:778)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:777)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:945)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:944)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$withTempUnits(Global.scala:857)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:944)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:944)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:706)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:943)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:376)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:504)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:429)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2015-12-06 02:09:25,164 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-06 02:09:25,164 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-06 02:09:25,164 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-06 02:09:31,710  WARN [Worker-28] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:09:31,710  WARN [Worker-28] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:09:31,740  WARN [Worker-28] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:09:31,740  WARN [Worker-28] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:09:39,052  WARN [Worker-28] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:09:39,052  WARN [Worker-28] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:12:37,607  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:12:37,607  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:12:37,627  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:12:37,627  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:12:40,365  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:12:40,365  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:13:59,405 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-06 02:13:59,415 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-06 02:14:38,830  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:14:38,830  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:14:38,850  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:14:38,850  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:14:41,073  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:14:41,074  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:16:24,974  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:16:24,974  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:16:24,994  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:16:24,994  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:16:27,110  WARN [Worker-23] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:16:27,110  WARN [Worker-23] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:17:37,194  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:17:37,194  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:17:37,214  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:17:37,214  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:17:38,842  WARN [Worker-25] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:17:38,842  WARN [Worker-25] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:19:33,077  WARN [Worker-37] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:19:33,077  WARN [Worker-37] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:19:33,105  WARN [Worker-37] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:19:33,106  WARN [Worker-37] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:19:34,665  WARN [Worker-37] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:19:34,665  WARN [Worker-37] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:21:39,495  WARN [Worker-24] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:21:39,495  WARN [Worker-24] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:21:39,515  WARN [Worker-24] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:21:39,515  WARN [Worker-24] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:21:41,164  WARN [Worker-24] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:21:41,164  WARN [Worker-24] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:26:58,688  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 533
+2015-12-06 02:26:58,698  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 533
+2015-12-06 02:27:21,249  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 533
+2015-12-06 02:27:21,249  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 533
+2015-12-06 02:27:24,274  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 533
+2015-12-06 02:27:24,284  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 533
+2015-12-06 02:27:29,334  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 528
+2015-12-06 02:27:29,334  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 528
+2015-12-06 02:27:31,970  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 527
+2015-12-06 02:27:31,970  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 527
+2015-12-06 02:27:36,603  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:27:36,603  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:27:43,709  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 516
+2015-12-06 02:27:43,719  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 516
+2015-12-06 02:27:44,809  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 515
+2015-12-06 02:27:44,819  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 515
+2015-12-06 02:27:47,928  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:27:47,928  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:28:01,988  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:28:01,988  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:28:14,037  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:28:14,047  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 522
+2015-12-06 02:28:20,147  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 515
+2015-12-06 02:28:20,147  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 515
+2015-12-06 02:29:45,899  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:29:45,899  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:29:45,919  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:29:45,919  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:29:46,773  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:29:46,773  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:31:22,581  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:31:22,581  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:31:22,601  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:31:22,601  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:31:29,672  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:31:29,672  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:33:17,205  WARN [Worker-42] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:33:17,205  WARN [Worker-42] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:33:17,225  WARN [Worker-42] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:33:17,225  WARN [Worker-42] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:33:19,798  WARN [Worker-42] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:33:19,798  WARN [Worker-42] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:34:42,497  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:34:42,497  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:34:42,517  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:34:42,517  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:34:43,809  WARN [Worker-40] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:34:43,809  WARN [Worker-40] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:35:30,594  WARN [Worker-42] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:35:30,594  WARN [Worker-42] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:35:30,614  WARN [Worker-42] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:35:30,614  WARN [Worker-42] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:35:31,578  WARN [Worker-42] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:35:31,578  WARN [Worker-42] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:44:51,737  WARN [Worker-50] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:44:51,737  WARN [Worker-50] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:44:51,757  WARN [Worker-50] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:44:51,757  WARN [Worker-50] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:44:51,787  WARN [Worker-50] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:44:51,787  WARN [Worker-50] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:54:08,386  WARN [Worker-58] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:54:08,386  WARN [Worker-58] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:54:08,406  WARN [Worker-58] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:54:08,406  WARN [Worker-58] - ScalaProject - Project Chat runs on platform default installation.
+2015-12-06 02:54:15,408  WARN [Worker-58] - ScalaProject - Project Chat has platform default sourceLevel.
+2015-12-06 02:54:15,408  WARN [Worker-58] - ScalaProject - Project Chat runs on platform default installation.

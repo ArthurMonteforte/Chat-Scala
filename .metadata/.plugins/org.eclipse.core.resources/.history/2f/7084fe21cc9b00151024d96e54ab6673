@@ -1,0 +1,21 @@
+import java.io.File
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.util.Calendar
+
+/**
+ * @author Artur
+ */
+object WriteToFile {
+  def writeToFile(text: String) ={
+    val file = new File("Chat-Scala " + getCurrentDateAndTime() + ".txt")
+    val bw = new BufferedWriter(new FileWriter(file))
+    bw.write(text)
+    bw.close()
+  }
+  
+  def getCurrentDateAndTime(): String = {
+    val out = Calendar.getInstance.getTime
+    out.toString()
+  }
+}
