@@ -30,7 +30,7 @@ import scala.collection.mutable.Map
   object SaveUser { 
     val map = scala.collection.mutable.Map[String, java.util.Date]()
     
-    // recebe o nome do usuário a partir do Chat
+    // recebe o nome do usuário a partir do Server
     // e cria um novo objeto da classe newUser:
     def recebeInfo(userName: String) = {
       val u = new newUser(userName)

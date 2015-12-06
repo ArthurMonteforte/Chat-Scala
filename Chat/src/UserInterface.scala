@@ -29,7 +29,12 @@ import scala.swing.event.ButtonClicked
 import javax.swing.text.DefaultCaret
 import scala.swing.FlowPanel
 
-
+/*
+ * Classe da interface gráfica do usuário. Ela possui a interface do usuário e métodos para se conectar
+ * com o servidor, detectar ações (edição de campos de textos e clique de botões) para realizar as ações
+ * correspondentes, e também checa indefinidamente se há novas mensagens enviadas pelo servidor para exibir
+ * no campo de texto correspondente.
+ */
 object UserInterface {
   
   def main(args: Array[String]): Unit = {
@@ -37,33 +42,36 @@ object UserInterface {
     
     val address = "localhost"
     val port = 10001  
-    val sock = new Socket(address, port)  
-    val is = new BufferedReader(new InputStreamReader(sock.getInputStream()))
-    val os = new PrintStream(sock.getOutputStream())
-    val textArea = new TextArea
-    val textArea2 = new TextArea
+    val socket = new Socket(address, port)  
+    val in = new BufferedReader(new InputStreamReader(socket.getInputStream()))
+    val out = new PrintStream(socket.getOutputStream())
+    val receivedMessagesArea = new TextArea
+    
+    // Botão para salvar a conversa num arquivo de texto .txt.
     val buttonSave = new Button("Salvar") {
       listenTo(this)
       reactions += {
-        case ButtonClicked(b) => WriteToFile.wirteToFile(dialogue)
+        case ButtonClicked(b) => WriteToFile.writeToFile(dialogue)
       }
     }
     
+    // Campo de texto que detecta se a edição terminou, e caso o texto editado não seja vazio, envia pro servidor
     val textField = new TextField {
       listenTo(this)
       reactions += {
         case e: EditDone =>
           if(text.nonEmpty){
-            os.println(text)
+            out.println(text)
             text = ""
           }
       }
     }
     
+    // Organização da interface gráfica do usuário
     val frame = new MainFrame{
-      title = "Chat Scala"
+      title = "Scala Chat UFABC"
       contents = new BorderPanel {
-        layout += new FlowPanel(textArea) -> BorderPanel.Position.North
+        layout += new ScrollPane(receivedMessagesArea) -> BorderPanel.Position.Center
         layout += textField -> BorderPanel.Position.South
         layout += buttonSave -> BorderPanel.Position.East
       }
@@ -71,13 +79,17 @@ object UserInterface {
       centerOnScreen
     }
     
-    var flag = true
+    /*
+     * Cria um ator para executar indefinidamente, recebendo as mensagens do servidor e adicionando-as
+     * no campo de texto correspondente e na variável 'dialogue', que guarda toda a conversa desde que o
+     * usuário em questão se conectou.
+     */
     actors.Actor.actor {
-      while(flag){
-        if(is.ready){
-          val output = is.readLine
+      while(true){
+        if(in.ready){
+          val output = in.readLine
           dialogue += output + " @@@ "
-          textArea.append(output + "\n")
+          receivedMessagesArea.append(output + "\n")
         }
         Thread.sleep(200)
       }

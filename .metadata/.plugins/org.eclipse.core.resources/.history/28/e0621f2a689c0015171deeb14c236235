@@ -1,0 +1,90 @@
+/*
+ * Universidade Federal do ABC
+ * 
+ * Discentes:
+ * Arthur Monteforte
+ * Danielle Lazzer Lucarini
+ * Laís Marinho de Souza
+ * 
+ * Disciplina: Paradigmas de Programação
+ * 
+ * 3º Quadrimestre 2015
+ * 
+ */
+
+import java.io.BufferedInputStream
+import java.io.PrintStream
+import java.net.Socket
+import java.io.InputStreamReader
+import java.io.BufferedReader
+import java.io.BufferedOutputStream
+import java.net.ServerSocket
+import collection.mutable
+
+/*
+ * Classe do servidor de bate-papo. É ela que abre um socket para aceitar conexões TCP/IP com os usuários.
+ * Possui métodos para aceitar novos usuários, receber suas mensagens e repassá-las para os demais usuários.
+ */
+object Server {
+  
+  /* 
+   * Classe case para armazenar as informações dos usuários que irão se conectar com o servidor de bate-papo
+   * armazena o socket, variáveis para receber e enviar mensagens, nome do usuário e a linguagem escolhida
+   */
+  case class User(sock:Socket, in: BufferedReader, ps: PrintStream, name: String, language: String)
+  
+  /*Buffer sincronizado para armazenar os usuários. É necessário que ele seja sincronizado porque
+     * ao mesmo tempo que estamos adicionando novos usuários no buffer, o servidor está iterando sobre
+     * o buffer para repassar as mensagens, então o buffer sincronizado evita problemas de concorrência.
+  */
+  val users = new mutable.ArrayBuffer[User]() with mutable.SynchronizedBuffer[User] {}
+  val serverSocket = new ServerSocket(10001)
+  
+  /* Método principal do servidor. Invoca os métodos de aceitação de usuários, recebimento e
+  * repasse de mensagens para executarem continuamente.
+  */
+  def main(args: Array[String]): Unit = {
+
+    acceptUsers()
+    sendMessages()    
+   
+  }
+
+
+  def acceptUsers() ={
+    actors.Actor.actor {
+      while(true){
+        val socket = serverSocket.accept()
+        val in = new BufferedReader(new InputStreamReader(socket.getInputStream()))
+        val out = new PrintStream((socket.getOutputStream()))
+        actors.Actor.actor {
+          out.println("What is your name?")
+          val name = is.readLine()
+          SaveUser.recebeInfo(name)
+          out.println("Choose a language:")
+          out.println("P - Portugues")
+          out.println("E - English")
+          val language = in.readLine()
+          users += User(socket, in, out, name, language)
+          if (language == "P") os.println("Digite uma mensagem:")
+          else if (language == "E") os.println("Write a message:")
+        }
+      }
+    }
+  }
+  
+  def sendMessages() ={
+     while(true){
+      for(user <- users){
+        if(user.is.ready){
+          val input = user.is.readLine
+          //chamar a funçao para traduzir:
+          for(user2 <- users){
+            user2.ps.println(user.name + " : " +  Translate.translate(user2.language, input))
+          }
+        }
+      }
+    }
+  }
+}
+  
