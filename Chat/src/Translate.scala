@@ -27,7 +27,9 @@ object Translate {
 // traduz as mensagens recebidas em inglês para português e retorna a tradução
   def toPort(input: String): String = {
     val words = input.split(" ")
-    val dic = Map("hi"->"oi","how"->"como","are"->"esta","you"->"vc","i'm"->"eu estou","fine"->"bem","and"->"e","too"->"tambem")
+    val dic = Map("hi"->"oi", "how"->"como", "are"->"esta", "you"->"vc",
+        "i'm"->"eu estou", "fine"->"bem", "and"->"e", "too"->"tambem",
+        "?"->"?", "!"->"!", ","->",", "."->".")
     var traducao = ""
     for(i <- 0 to words.length-1){
       dic contains words(i) match{
@@ -41,7 +43,9 @@ object Translate {
   // traduz as mensagens recebidas em português para inglês e retorna a tradução
   def toEng(input: String): String = {
      val words = input.split(" ")
-    val dic = Map("oi"->"hi","como"->"how","esta"->"are","vc"->"you","eu" -> "i",  "estou"-> "am","bem"->"fine","e"->"and","tambem"->"too")
+    val dic = Map("oi"->"hi", "como"->"how", "esta"->"are", "vc"->"you", "eu" -> "i",
+        "estou"-> "am", "bem"->"fine", "e"->"and", "tambem"->"too", "?"->"?",
+        "!"->"!", ","->",", "."->".")
     var traducao = ""
     for(i <- 0 to words.length-1){
       dic contains words(i) match{
